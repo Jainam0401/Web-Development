@@ -1,0 +1,168 @@
+
+*{
+    font-family:Montserrat-Sans ;
+}
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: Montserrat Subrayada;
+    font-weight: 1000 ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+h2{
+    font-family: Montserrat;
+    font-weight: 900 ;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+
+.container-fluid{
+    padding: 3%  15%;
+}
+h3{
+    font-family: Montserrat;
+    font-size: xx-large;
+    font-weight: 800;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* Navigation bar */
+.navbar{
+    color: #fff;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-item{
+    color: #cac0c0d4;
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.25rem;
+    color: #cac0c0d4;
+    padding: 0px 18px;
+    font-family: Montserrat-Light;
+}
+
+.Download-button{
+    margin: 3% 5% 10% 0%;
+}
+
+
+/* title iphone image */
+.new{
+    width: 60%;
+    transform: rotate(25deg);
+   
+}
+
+
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.feature-box{
+   padding:2%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 15px ;
+}
+
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding:100px ;
+    text-align: center;
+}
+
+.pricing-coloumn{
+    padding:3% 2% ;
+}
+
+@media (max-width: 1024){
+    .title{
+        position: static;
+        transform: rotate(0);
+    }
+    #tilte1 h1{
+        text-align: center;
+    }
+}
+
+
+#cta{
+    font-family: Montserrat-Black;
+    font-size: 3.5rem;
+    padding: 5%  15% 0%  15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#footer{
+    margin: 0rem 8rem 0rem 8rem;
+    padding: 3%  15%;
+    text-align: center;
+}
+
+.iconic{
+    size: 200%;
+    padding: 1% 2%; 
+
+    margin: 10px 3px;
+}
+.iconic:hover{
+    /* cursor:grab; */
+    /* background-color: #24cd48; */
+    transform: rotate(45deg);
+}
